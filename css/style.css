@@ -1,0 +1,197 @@
+body{
+    overflow: auto;
+    width: 1000px;
+   
+    
+
+}
+.parent{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+    position: relative;
+    
+
+}
+
+.div1 {
+    width: 200px;
+    height: 100px;
+    top:0;
+    left: 0;
+    
+    background-color: blue;
+    position: absolute;
+    animation-name: change1;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+   
+    
+    
+}
+
+
+@keyframes change1{
+    
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1000px; top:0px;}
+    50%  {background-color:blue; left:1000px; top:100px;}
+    75%  {background-color:green; left:0px; top:100px;}
+    100% {background-color:purple; left:0px; top:0px;}
+  }
+
+    
+
+
+
+.div2{
+    
+    width: 200px;
+    height: 100px;
+    
+    left:0;
+    background-color: violet;
+    position: absolute;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    
+}
+    
+
+@keyframes change2{
+    
+    0%   {background-color:palevioletred; left:0px; top:100px;}
+    25%  {background-color:yellow; left:1000px; top:100px;}
+    50%  {background-color:blue; left:1000px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:violet; left:0px; top:100px;}
+  
+  }
+.div3{
+    
+    width: 200px;
+    height: 100px;
+   
+    left: 0;
+    background-color: yellow;
+    position: absolute;
+    animation-name: change3;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+
+}
+@keyframes change3{
+    
+    0%   {background-color:rosybrown; left:0px; top:200px;}
+    25%  {background-color:yellow; left:1000px; top:200px;}
+    50%  {background-color:blue; left:1000px; top:300px;}
+    75%  {background-color:green; left:0px; top:300px;}
+    100% {background-color:pink; left:0px; top:200px;}
+  
+  }
+  .div4{
+    
+    width: 200px;
+    height: 100px;
+    left: 0;
+    
+    background-color: purple;
+    position: absolute;
+    animation-name: change4;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 9s;
+    animation-iteration-count: 1;
+    
+
+}
+@keyframes change4{
+    
+    0%   {background-color:violet; left:0px; top:300px;}
+    25%  {background-color:green; left:1000px; top:300px;}
+    50%  {background-color:blue; left:1000px; top:400px;}
+    75%  {background-color:red; left:0px; top:400px;}
+    100% {background-color:palevioletred; left:0px; top:300px;}
+  
+  }
+
+  .div5{
+    width: 200px;
+    height: 100px;
+    left: 0;
+    
+    background-color: purple;
+    position: absolute;
+    animation-name: change5;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 12s;
+    animation-iteration-count: 1;
+    
+
+}
+@keyframes change5{
+    
+    0%   {background-color:rgb(226, 139, 219); left:0px; top:400px;}
+    25%  {background-color:green; left:1000px; top:400px;}
+    50%  {background-color:blue; left:1000px; top:500px;}
+    75%  {background-color:red; left:0px; top:500px;}
+    100% {background-color:rgb(243, 115, 222); left:0px; top:400px;}
+
+  }
+
+  .div6{
+    width: 200px;
+    height: 100px;
+    left: 0;
+    
+    background-color: purple;
+    position: absolute;
+    animation-name: change6;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 15s;
+    animation-iteration-count: 1;
+    
+
+}
+@keyframes change6{
+    
+    0%   {background-color:purple; left:0px; top:500px;}
+    25%  {background-color:green; left:1000px; top:500px;}
+    50%  {background-color:blue; left:1000px; top:600px;}
+    75%  {background-color:red; left:0px; top:600px;}
+    100% {background-color:purple; left:0px; top:500px;}
+
+  }
+ 
+
+
